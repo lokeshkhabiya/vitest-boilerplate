@@ -1,0 +1,9 @@
+{
+	"contestId": "",
+	"participantId": "",
+	"apiEndpoint": "https://api.devblitz.io",
+	"s3Bucket": "devblitz-tests",
+	"testTimeout": 30000,
+	"chapters": []
+  }
+  
