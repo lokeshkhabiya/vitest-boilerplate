@@ -6,8 +6,10 @@
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
-    "test": "jest --verbose",
-    "test:chapter": "jest --testPathPattern"
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:watch": "vitest watch",
+    "test:coverage": "vitest run --coverage"
   },
   "dependencies": {
     "express": "^4.18.2",
@@ -26,11 +28,9 @@
   "devDependencies": {
     "@types/node": "^20.10.6",
     "@types/express": "^4.17.21",
-    "@types/jest": "^29.5.11",
     "typescript": "^5.3.3",
     "tsx": "^4.7.0",
-    "jest": "^29.7.0",
-    "ts-jest": "^29.1.1",
+    "vitest": "^1.0.0",
     "@types/bcrypt": "^5.0.2",
     "@types/jsonwebtoken": "^9.0.5",
     "@types/uuid": "^9.0.7"
